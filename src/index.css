@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .thumbnail-icon {
+    @apply grid grid-cols-1 justify-items-center;
+  }
+}
