@@ -1,4 +1,4 @@
-import * as images from "./assets";
+import * as images from "../assets";
 
 const Email = () => {
   return (

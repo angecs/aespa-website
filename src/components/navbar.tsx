@@ -1,4 +1,4 @@
-import * as images from "./assets";
+import * as images from "../assets";
 
 const Navbar = () => {
   return (
@@ -51,10 +51,10 @@ const Navbar = () => {
               Music Videos
             </a>
             <a
-              href="#merch"
+              href="#concerts"
               className="text-white font-bold hover:underline active:transition active:scale-110"
             >
-              Merch
+              Concerts
             </a>
           </nav>
         </div>

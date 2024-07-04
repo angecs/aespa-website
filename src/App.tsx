@@ -1,12 +1,12 @@
 import React from "react";
-import Navbar from "./navbar";
-import Hero from "./hero-section";
-import "./App.css";
-import Avatars from "./avatars";
-import Discography from "./discography";
-import MusicVideos from "./music-videos";
-import Email from "./email-subscription";
-import Footer from "./footer";
+import Navbar from "./components/navbar";
+import Hero from "./components/hero-section";
+import Avatars from "./components/avatars";
+import Discography from "./components/discography";
+import MusicVideos from "./components/music-videos";
+import Email from "./components/email-subscription";
+import Footer from "./components/footer";
+import Concerts from "./components/concerts";
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
       <Avatars />
       <Discography />
       <MusicVideos />
+      <Concerts />
       <Email />
       <Footer />
     </div>

@@ -1,4 +1,4 @@
-import * as images from "./assets";
+import * as images from "../assets";
 
 const Avatars = () => {
   return (
@@ -10,6 +10,7 @@ const Avatars = () => {
         >
           AVATARS
         </h2>
+
         <div className="thumbnail-icon">
           <img
             src={images.aeKarina}
