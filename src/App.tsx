@@ -7,12 +7,14 @@ import MusicVideos from "./components/music-videos";
 import Email from "./components/email-subscription";
 import Footer from "./components/footer";
 import Concerts from "./components/concerts";
+import Members from "./components/members";
 
 function App() {
   return (
     <div className="font-arial dark dark:bg-gradient-to-b dark:from-slate-950 dark:to-slate-700">
       <Navbar />
       <Hero />
+      <Members />
       <Avatars />
       <Discography />
       <MusicVideos />

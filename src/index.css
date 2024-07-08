@@ -4,6 +4,6 @@
 
 @layer components {
   .thumbnail-icon {
-    @apply grid grid-cols-1 justify-items-center;
+    @apply grid grid-cols-1 justify-items-center text-center justify-center;
   }
 }
