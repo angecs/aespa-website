@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/aespa-website/static/css/main.80363593.css",
-    "main.js": "/aespa-website/static/js/main.dc4b2245.js",
+    "main.css": "/aespa-website/static/css/main.20c2372a.css",
+    "main.js": "/aespa-website/static/js/main.cc88a150.js",
     "static/js/453.ed3810f9.chunk.js": "/aespa-website/static/js/453.ed3810f9.chunk.js",
     "static/media/armageddon.jpg": "/aespa-website/static/media/armageddon.85df0d2eec0e1e6e320a.jpg",
     "static/media/aespa-hero.jpg": "/aespa-website/static/media/aespa-hero.58fe80328a72d851143a.jpg",
@@ -20,12 +20,12 @@
     "static/media/ae-winter.webp": "/aespa-website/static/media/ae-winter.a36b930e77b6530c47d8.webp",
     "static/media/aespalogo.webp": "/aespa-website/static/media/aespalogo.b7ff80247e4e15a6ce7b.webp",
     "index.html": "/aespa-website/index.html",
-    "main.80363593.css.map": "/aespa-website/static/css/main.80363593.css.map",
-    "main.dc4b2245.js.map": "/aespa-website/static/js/main.dc4b2245.js.map",
+    "main.20c2372a.css.map": "/aespa-website/static/css/main.20c2372a.css.map",
+    "main.cc88a150.js.map": "/aespa-website/static/js/main.cc88a150.js.map",
     "453.ed3810f9.chunk.js.map": "/aespa-website/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.80363593.css",
-    "static/js/main.dc4b2245.js"
+    "static/css/main.20c2372a.css",
+    "static/js/main.cc88a150.js"
   ]
 }
