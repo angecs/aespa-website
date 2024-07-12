@@ -1,5 +1,8 @@
 import { albums } from "../data/spotify-albums";
 import { useState } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function Album({ link, title }: { link: string; title: string }) {
   return (
@@ -18,6 +21,10 @@ function Album({ link, title }: { link: string; title: string }) {
 }
 
 const Discography = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   const [index, setIndex] = useState(0);
   let hasPrev = index > 0;
   let hasNext = index < albums.length - 1;
@@ -43,7 +50,11 @@ const Discography = () => {
       >
         DISCOGRAPHY
       </h2>
-      <section className="mt-3 m-16 md:m-24" id="discography">
+      <section
+        data-aos="fade-down"
+        className="mt-3 m-16 md:mt-0 md:mx-48 md:mb-48"
+        id="discography"
+      >
         <Album title={album.name} link={album.link} />
         <div className="flex my-4 justify-center">
           <button

@@ -3,9 +3,9 @@ import * as images from "../assets";
 const Email = () => {
   return (
     <div>
-      <section className="grid grid-cols-1 md:grid-cols-2 m-16 md:m-24 bg-pink-300 p-4 rounded-lg overflow-hidden dark:bg-slate-100">
+      <section className="grid grid-cols-1 md:grid-cols-2 m-16 md:mx-48 bg-pink-300 p-4 rounded-lg overflow-hidden dark:bg-slate-100 md:mb-48">
         <div className="dark:bg-slate-900 bg-gradient-to-b from-pink-100 to-pink-200 p-8">
-          <h3 className="text-3xl md:text-5xl font-bold py-2 text-pink-500 dark:text-slate-100">
+          <h3 className="text-xl md:text-4xl font-bold py-2 text-pink-500 dark:text-slate-100">
             Subscribe to our newsletter
           </h3>
           <p className="py-2 text-pink-400 dark:text-slate-100">

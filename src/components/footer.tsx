@@ -1,8 +1,8 @@
 const Footer = () => {
   return (
     <div>
-      <footer className="columns-1 md:columns-2 gap-8 py-8 px-16 bg-pink-300 text-white justify-center md:justify-items-center items-center">
-        <h3 className="text-5xl  my-8 md:my-4">Aespa</h3>
+      <footer className="columns-1 md:columns-2 gap-16 py-8 px-48 bg-pink-300 text-white justify-center md:justify-items-center items-center">
+        <h3 className="text-3xl  my-8 md:my-4">Aespa</h3>
         <p className="text-slate-50 md:break-after-column">
           aespa (에스파), stylized as æspa, is a four-member South Korean girl
           group under SM Entertainment. The group consists of Karina, Giselle,
@@ -11,7 +11,7 @@ const Footer = () => {
           Japanese Single, "Hot Mess".
         </p>
 
-        <h3 className="text-5xl my-8 md:my-4">Socials</h3>
+        <h3 className="text-3xl my-8 md:my-4">Socials</h3>
         <ul className="flex items-center gap-x-8 my-2">
           <li>
             <a href="https://www.facebook.com/aespa.official/">
