@@ -1,10 +1,26 @@
-import { discography } from "../data/discography";
+import { albums } from "../data/spotify-albums";
 import { useState } from "react";
+
+function Album({ link, title }: { link: string; title: string }) {
+  return (
+    <>
+      <iframe
+        className="rounded-s-md"
+        src={link}
+        title={title}
+        width="100%"
+        height="352"
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy"
+      ></iframe>
+    </>
+  );
+}
 
 const Discography = () => {
   const [index, setIndex] = useState(0);
   let hasPrev = index > 0;
-  let hasNext = index < discography.length - 1;
+  let hasNext = index < albums.length - 1;
 
   function onPrevSlide() {
     if (hasPrev) {
@@ -18,43 +34,29 @@ const Discography = () => {
     }
   }
 
-  let album = discography[index];
+  let album = albums[index];
   return (
     <div>
-      <section className="m-24" id="discography">
-        <h2 className="text-xl md:text-6xl col-span-2 md:col-span-5 my-2 md:my-8 dark:text-white text-center">
-          Discography
-        </h2>
-        <div className="flex justify-center">
-          <img
-            src={album.thumbnail}
-            alt={album.name}
-            className="w-1/4 hover:transition hover:saturate-200 cursor-pointer p-4 bg-purple-300"
-          />
-          <ol className="bg-purple-400 p-4">
-            <li className="font-bold my-2 text-2xl">{album.name}</li>
-            <li>{album.order}</li>
-            <li className="mb-2">Date Released: {album["date-released"]}</li>
-            <li className="font-bold">TrackList</li>
-            {album.tracklist.map((track, index) => (
-              <li key={crypto.randomUUID()}>
-                {index + 1}. {track}
-              </li>
-            ))}
-          </ol>
-        </div>
+      <h2
+        className="text-pink-500 text-3xl text-center mt-8 sm:mt-16 lg:mt-24 sm:text-5xl xl:text-6xl 4 md:my-8 dark:text-white"
+        id="discography"
+      >
+        DISCOGRAPHY
+      </h2>
+      <section className="mt-3 m-16 md:m-24" id="discography">
+        <Album title={album.name} link={album.link} />
         <div className="flex my-4 justify-center">
           <button
             onClick={onPrevSlide}
             disabled={!hasPrev}
-            className="p-2 mx-2 rounded-md bg-slate-300"
+            className="p-2 mx-2 rounded-md bg-pink-200 text-pink-500 disabled:bg-pink-200 disabled:text-pink-100"
           >
             Previous
           </button>
           <button
             onClick={onNextSlide}
             disabled={!hasNext}
-            className="p-2 mx-2 rounded-md bg-slate-300"
+            className="p-2 mx-2 rounded-md bg-pink-200 text-pink-500 disabled:bg-pink-200 disabled:text-pink-100"
           >
             Next
           </button>

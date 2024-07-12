@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "./components/navbar";
 import Hero from "./components/hero-section";
-import Avatars from "./components/avatars";
 import Discography from "./components/discography";
 import MusicVideos from "./components/music-videos";
 import Email from "./components/email-subscription";
@@ -11,11 +10,10 @@ import Members from "./components/members";
 
 function App() {
   return (
-    <div className="font-arial dark dark:bg-gradient-to-b dark:from-slate-950 dark:to-slate-700">
+    <div className="font-arial dark dark:bg-gradient-to-b dark:from-pink-200 dark:to-pink-700">
       <Navbar />
       <Hero />
       <Members />
-      <Avatars />
       <Discography />
       <MusicVideos />
       <Concerts />

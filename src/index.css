@@ -4,6 +4,6 @@
 
 @layer components {
   .thumbnail-icon {
-    @apply grid grid-cols-1 justify-items-center text-center justify-center;
+    @apply w-full h-full flex flex-col items-start bg-gradient-to-b from-pink-100 to-pink-200 rounded-lg shadow-md p-4;
   }
 }

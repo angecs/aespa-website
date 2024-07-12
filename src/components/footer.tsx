@@ -1,9 +1,9 @@
 const Footer = () => {
   return (
     <div>
-      <footer className="columns-1 md:columns-2 gap-8 py-8 px-16 bg-slate-800 text-slate-50 justify-center md:justify-items-center items-center">
+      <footer className="columns-1 md:columns-2 gap-8 py-8 px-16 bg-pink-300 text-white justify-center md:justify-items-center items-center">
         <h3 className="text-5xl  my-8 md:my-4">Aespa</h3>
-        <p className="text-slate-400 md:break-after-column">
+        <p className="text-slate-50 md:break-after-column">
           aespa (에스파), stylized as æspa, is a four-member South Korean girl
           group under SM Entertainment. The group consists of Karina, Giselle,
           Winter, and NingNing. They debuted on November 17, 2020, with the
@@ -15,7 +15,7 @@ const Footer = () => {
           <li>
             <a href="https://www.facebook.com/aespa.official/">
               <svg
-                className="fill-slate-400"
+                className="fill-pink-50"
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
                 y="0px"
@@ -30,7 +30,7 @@ const Footer = () => {
           <li>
             <a href="https://x.com/aespa_official">
               <svg
-                className="fill-slate-400"
+                className="fill-pink-50"
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
                 y="0px"
@@ -45,7 +45,7 @@ const Footer = () => {
           <li>
             <a href="https://www.instagram.com/aespa_official/?hl=en">
               <svg
-                className="fill-slate-400"
+                className="fill-pink-50"
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
                 y="0px"
@@ -60,7 +60,7 @@ const Footer = () => {
           <li>
             <a href="https://www.tiktok.com/@aespa_official?lang=en">
               <svg
-                className="fill-slate-400"
+                className="fill-pink-50"
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
                 y="0px"
@@ -75,7 +75,7 @@ const Footer = () => {
           <li>
             <a href="https://www.youtube.com/channel/UC9GtSLeksfK4yuJ_g1lgQbg">
               <svg
-                className="fill-slate-400"
+                className="fill-pink-50"
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
                 y="0px"
@@ -89,7 +89,7 @@ const Footer = () => {
           </li>
         </ul>
       </footer>
-      <p className="text-center bg-slate-900 text-white p-2">
+      <p className="text-center bg-pink-400 text-white p-2">
         &copy; SM ENTERTAINMENT. ALL RIGHTS RESERVED.
       </p>
     </div>

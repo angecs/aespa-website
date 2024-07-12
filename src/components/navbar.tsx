@@ -9,7 +9,7 @@ const Navbar = () => {
             <img
               src={images.aespalogo}
               alt="aespa-logo"
-              className="w-16 p-2 bg-black rounded-full hover:shadow-md hover:shadow-white"
+              className="w-8 sm:w-16 p-2 bg-pink-700 rounded-full hover:shadow-md hover:shadow-white"
             />
           </a>
 
@@ -33,10 +33,10 @@ const Navbar = () => {
               Home
             </a>
             <a
-              href="#avatars"
+              href="#members"
               className="text-white font-bold hover:underline active:transition active:scale-110"
             >
-              Avatars
+              Members
             </a>
             <a
               href="#discography"

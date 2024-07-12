@@ -6,7 +6,7 @@ export const members = [
     name: "Karina",
     birthday: "April 11th, 2000",
     position: "Main Dancer, Lead Rapper, Sub-Vocalist",
-    "Representative Symbol": "Heart",
+    "Representative Symbol": "Heart ❤️",
     image: images.karina,
   },
 
@@ -15,7 +15,7 @@ export const members = [
     name: "Giselle",
     birthday: "October 30th, 2000",
     position: "Main Rapper, Sub-Vocalist",
-    "Representative Symbol": " Crescent Moon",
+    "Representative Symbol": " Crescent Moon 🌙",
     image: images.giselle,
   },
 
@@ -24,7 +24,7 @@ export const members = [
     name: "Winter",
     birthday: " January 1st, 2001",
     position: "Lead Vocalist, Lead Dancer, Visual",
-    "Representative Symbol": "Star",
+    "Representative Symbol": "Star ⭐",
     image: images.winter,
   },
 
@@ -33,7 +33,7 @@ export const members = [
     name: "Ningning",
     birthday: "October 23rd, 2002",
     position: "Main Vocalist, Maknae",
-    "Representative Symbol": "Butterfly",
+    "Representative Symbol": "Butterfly 🦋",
     image: images.ningning,
   },
 ];

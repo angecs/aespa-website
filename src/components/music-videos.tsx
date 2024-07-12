@@ -2,8 +2,9 @@ function Video({ source, title }: { source: string; title: string }) {
   return (
     <>
       <iframe
-        width="320"
-        height="240"
+        className="rounded-lg p-4 bg-gradient-to-b from-pink-100 to-pink-200 shadow-md"
+        width="420"
+        height="320"
         src={source}
         title={title}
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -17,14 +18,13 @@ function Video({ source, title }: { source: string; title: string }) {
 const MusicVideos = () => {
   return (
     <div>
-      <section
-        className="sm:m-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 items-center justify-items-center gap-y-4"
+      <h2
+        className="text-pink-500 text-3xl text-center mt-8 sm:mt-16 lg:mt-24 sm:text-5xl xl:text-6xl dark:text-white"
         id="music-videos"
       >
-        <h2 className="text-xl sm:text-4xl md:text-5xl xl:text-6xl col-span-1 sm:col-span-2 lg:col-span-3 my-4 md:my-8 dark:text-white">
-          MUSIC VIDEOS
-        </h2>
-
+        MUSIC VIDEOS
+      </h2>
+      <section className="mt-6 m-16 md:m-24 flex flex-wrap gap-8 justify-center 2xl:justify-between">
         <Video
           source={"https://www.youtube.com/embed/0nPniUvUBfU"}
           title={"aespa 에스파 &#39;Armageddon&#39; MV (Performance Ver.)"}

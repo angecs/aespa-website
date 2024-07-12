@@ -12,11 +12,11 @@ const Hero = () => {
 
         <div className="absolute top-1/2 right-1/2 transform translate-x-1/2">
           <h1 className="text-xl sm:text-3xl lg:text-6xl text-white">
-            Armageddon Out Now!
+            Hot Mess Out Now!
           </h1>
           <div className="flex gap-2 lg:gap-8 justify-center items-center my-2 lg:my-4">
             <a
-              href="https://music.apple.com/us/album/armageddon-the-1st-album/1745607260"
+              href="https://music.apple.com/ng/album/hot-mess-single/1754125916"
               className=""
             >
               <svg
@@ -29,7 +29,7 @@ const Hero = () => {
               </svg>
             </a>
 
-            <a href="https://www.youtube.com/watch?v=nFYwcndNuOY">
+            <a href="https://www.youtube.com/watch?v=2iK3ccCsI6s">
               <svg
                 className="h-3 w-3 sm:h-6 sm:w-6 lg:h-12 lg:w-12 fill-white hover:scale-105 hover:transition"
                 xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +43,7 @@ const Hero = () => {
               </svg>
             </a>
 
-            <a href="https://open.spotify.com/album/3gHhPm8z8tid1kvpniUKuK?si=8L51hTreTiSY9F0vo0suJg">
+            <a href="https://open.spotify.com/album/2PvpuCui1GVO8DkFcCHzYU">
               <svg
                 className="h-3 w-3 sm:h-6 sm:w-6 lg:h-12 lg:w-12 fill-white hover:scale-105 hover:transition"
                 xmlns="http://www.w3.org/2000/svg"
