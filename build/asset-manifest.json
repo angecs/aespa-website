@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/aespa-website/static/css/main.20c2372a.css",
+    "main.js": "/aespa-website/static/js/main.cc88a150.js",
+    "static/js/453.ed3810f9.chunk.js": "/aespa-website/static/js/453.ed3810f9.chunk.js",
+    "static/media/armageddon.jpg": "/aespa-website/static/media/armageddon.85df0d2eec0e1e6e320a.jpg",
+    "static/media/aespa-hero.jpg": "/aespa-website/static/media/aespa-hero.58fe80328a72d851143a.jpg",
+    "static/media/winter.jpg": "/aespa-website/static/media/winter.c5f38fab58be367b15c1.jpg",
+    "static/media/karina.jpg": "/aespa-website/static/media/karina.22b7eda4632360f07390.jpg",
+    "static/media/giselle.jpg": "/aespa-website/static/media/giselle.8365cddee03a6a50edbe.jpg",
+    "static/media/ningning.jpg": "/aespa-website/static/media/ningning.8a362b1f853c6d688c20.jpg",
+    "static/media/aespa-newletters.jpg": "/aespa-website/static/media/aespa-newletters.ab0a574a17b88517e934.jpg",
+    "static/media/Aespa_-_My_World.png": "/aespa-website/static/media/Aespa_-_My_World.d0dee8d0a696710613cb.png",
+    "static/media/savage.jpg": "/aespa-website/static/media/savage.e34b715e58f520d3bce0.jpg",
+    "static/media/Aespa_-_Girls.png": "/aespa-website/static/media/Aespa_-_Girls.eaf1bce1e7b797352df6.png",
+    "static/media/drama-aespa.jpg": "/aespa-website/static/media/drama-aespa.d66abd1ff8bca2293570.jpg",
+    "static/media/ae-giselle.webp": "/aespa-website/static/media/ae-giselle.6a6d518e794a09f51740.webp",
+    "static/media/ae-ningning.webp": "/aespa-website/static/media/ae-ningning.7f3561cec0cd77eb6f30.webp",
+    "static/media/ae-karina.webp": "/aespa-website/static/media/ae-karina.a140c8c7855bc98eba9d.webp",
+    "static/media/ae-winter.webp": "/aespa-website/static/media/ae-winter.a36b930e77b6530c47d8.webp",
+    "static/media/aespalogo.webp": "/aespa-website/static/media/aespalogo.b7ff80247e4e15a6ce7b.webp",
+    "index.html": "/aespa-website/index.html",
+    "main.20c2372a.css.map": "/aespa-website/static/css/main.20c2372a.css.map",
+    "main.cc88a150.js.map": "/aespa-website/static/js/main.cc88a150.js.map",
+    "453.ed3810f9.chunk.js.map": "/aespa-website/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20c2372a.css",
+    "static/js/main.cc88a150.js"
+  ]
+}
