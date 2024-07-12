@@ -7,7 +7,8 @@ const Footer = () => {
           aespa (에스파), stylized as æspa, is a four-member South Korean girl
           group under SM Entertainment. The group consists of Karina, Giselle,
           Winter, and NingNing. They debuted on November 17, 2020, with the
-          digital single, Black Mamba.
+          digital single, Black Mamba. They recently released their debut
+          Japanese Single, "Hot Mess".
         </p>
 
         <h3 className="text-5xl my-8 md:my-4">Socials</h3>
